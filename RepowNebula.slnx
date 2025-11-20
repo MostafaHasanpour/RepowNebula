@@ -1,1 +1,17 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/01.Core/">
+    <Project Path="src/01.Core/RepowNebula.Contract/RepowNebula.Contract.csproj" Id="ea1257fe-fb30-4ee6-b759-87651d8d6dec" />
+    <Project Path="src/01.Core/RepowNebula.Domain/RepowNebula.Domain.csproj" Id="21ffd75d-3c57-46c7-b073-c066c9b89579" />
+  </Folder>
+  <Folder Name="/src/02.Application/">
+    <Project Path="src/02.Application/RepowNebula.Application/RepowNebula.Application.csproj" Id="a945ea1c-65d7-45be-a0c8-6b667f1fb216" />
+  </Folder>
+  <Folder Name="/src/03.Infra/">
+    <Project Path="src/03.Infra/RepowNebula.Infrastructure/RepowNebula.Infrastructure.csproj" Id="9dac3cff-c6c7-4bbd-a528-4304468fd71d" />
+  </Folder>
+  <Folder Name="/src/04.Presentation/">
+    <Project Path="src/04.Presentation/RepowNebula.BlazorUI/RepowNebula.BlazorUI.csproj" Id="9b25433d-5c29-4d5f-8725-b80638382323" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>

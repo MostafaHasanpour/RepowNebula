@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\RepowNebula.Contract\RepowNebula.Contract.csproj" />
+  </ItemGroup>
+
 </Project>

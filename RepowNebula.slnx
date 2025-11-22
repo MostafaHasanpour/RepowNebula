@@ -14,6 +14,6 @@
     <Project Path="src/04.Presentation/RepowNebula.BlazorUI/RepowNebula.BlazorUI.csproj" Id="9b25433d-5c29-4d5f-8725-b80638382323" />
   </Folder>
   <Folder Name="/tests/">
-    <File Path="/tests/empty.txt" />
+    <File Path="tests/empty.txt" />
   </Folder>
 </Solution>

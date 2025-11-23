@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/.project-files/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
   <Folder Name="/src/" />
   <Folder Name="/src/01.Core/">
     <Project Path="src/01.Core/RepowNebula.Contract/RepowNebula.Contract.csproj" Id="ea1257fe-fb30-4ee6-b759-87651d8d6dec" />

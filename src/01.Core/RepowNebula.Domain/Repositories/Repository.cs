@@ -4,13 +4,18 @@ namespace RepowNebula.Domain.Repositories;
 
 public class Repository
 {
-    public Repository(string id, string name, string groupId, RepositoryGroup group, string url)
+    private Repository(string id, string name, string groupId, RepositoryGroup group, string url)
     {
         Id = id;
         Name = name;
         GroupId = groupId;
         Group = group;
         Url = url;
+    }
+
+    private Repository()
+    {
+        
     }
 
     public string Id { get; private set; }

@@ -13,9 +13,14 @@ public class Repository
         Url = url;
     }
 
+    // Initialize non-nullable properties with default values to satisfy CS8618
     private Repository()
     {
-        
+        Id = string.Empty;
+        Name = string.Empty;
+        GroupId = string.Empty;
+        Group = default!;
+        Url = string.Empty;
     }
 
     public string Id { get; private set; }
